@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-real-time-collaborative-text-editor",
+  "version": "0.0.1",
+  "description": null,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "mkdir -p static/dist/ && ./node_modules/.bin/browserify client.js -o static/dist/bundle.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "quill": "^1.0.0-beta.11",
+    "rich-text": "^3.0.1",
+    "sharedb": "^1.0.0-beta",
+    "websocket-json-stream": "^0.0.1",
+    "ws": "^1.1.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "nodemon": "1.18.4",
+    "browserify": "^13.0.1"
+  },
+  "keywords": []
+}
