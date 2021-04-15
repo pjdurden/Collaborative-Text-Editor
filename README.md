@@ -1,19 +1,20 @@
 # Collaborative-Text-Editor
 Real Time Text Editor using Node.js and Socket.io which allows multiple users to access and edit a document simultaneously.
+<img src="https://github.com/pjdurden/Collaborative-Text-Editor/blob/master/text%20editor.jfif" width="425"/> <img src="https://github.com/pjdurden/Collaborative-Text-Editor/blob/master/django%20chat.png" width="425"/> 
 
 ## Node Modules
 * Socket.io
 * Socket.io-client
 
-## Get Started
+## Getting Started
 clone repository ``` git clone ... ```
 
-### Instal
+### InstalLation
 ``` npm install ```
 
 ### Run Script
 ``` node server ```
 
-### Open Client
-Open `index.hml` in your browser, and happy fun the Real Time Text Editor :D
+### Run Client
+Open `index.hml` in Chrome/Firefox, enjoy.
 
